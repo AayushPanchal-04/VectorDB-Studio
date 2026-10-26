@@ -41,45 +41,6 @@ Vector databases power search, recommendations and RAG, but they are usually use
 
 ---
 
-## Screenshots
-
-> Add your own images to `docs/screenshots/` using the file names below. See [Adding screenshots](#adding-screenshots).
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="docs/screenshots/01-semantic-map.png" alt="Semantic map showing PCA projection of vectors" />
-      <p align="center"><b>Semantic map</b><br/>2D PCA projection of 16-dimension vectors, with the query star and nearest matches highlighted</p>
-    </td>
-    <td width="50%">
-      <img src="docs/screenshots/02-search-results.png" alt="Search results with latency and distances" />
-      <p align="center"><b>Search results</b><br/>Ranked matches with distance values and microsecond-level latency</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="docs/screenshots/03-benchmark.png" alt="Benchmark comparing Brute Force, KD-Tree and HNSW" />
-      <p align="center"><b>Algorithm benchmark</b><br/>Brute Force vs KD-Tree vs HNSW on the same query</p>
-    </td>
-    <td width="50%">
-      <img src="docs/screenshots/04-hnsw-layers.png" alt="HNSW graph layer statistics" />
-      <p align="center"><b>HNSW graph layers</b><br/>Node and edge counts for each layer of the index</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="docs/screenshots/05-documents.png" alt="Documents tab with Ollama status and stored chunks" />
-      <p align="center"><b>Document ingestion</b><br/>Paste text, chunk it, embed it with Ollama, and store it in the index</p>
-    </td>
-    <td width="50%">
-      <img src="docs/screenshots/06-ask-ai.png" alt="Ask AI tab showing an answer with retrieved sources" />
-      <p align="center"><b>Ask AI (RAG)</b><br/>Grounded answers with expandable source passages</p>
-    </td>
-  </tr>
-</table>
-
----
-
 ## Features
 
 ### Vector search engine
